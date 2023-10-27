@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+}
+h1{
+    color: black;
+    border: 3px black solid;
+    text-align: center;
+    /* border-radius: 4px; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float:right;
+    
+    
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+#container1 >h2{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#container1 >a{
+    margin-top:6px;
+    margin-left: 60px;
+
+}
+  #container1{
+    border: solid rgb(2, 2, 2) 3px;
+    margin: 5px;
+  }
+
+
+  #container2 >h2{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#container2 >a{
+    margin-top:6px;
+    margin-left: 60px;
+
+}
+  #container2{
+    border: solid rgb(2, 2, 2) 3px;
+    margin: 5px;
+  }
+
+
+
+ 
+  #team1{
+    border: solid rgb(2, 2, 2) 3px;
+    text-align: center;
+  }
+
+  footer{
+    text-align: center;
+  }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* in this lecture i learn media query */
+    .container{
+        display: flex;
+        align-items: start;
+    }
+           .box{
+            height: 200px;
+            width: 200px;
+            border: 2px black solid;
+            background-color: chocolate;
+           }
+           @media  (max-width:400px) {
+            .box{
+                background-color: cadetblue;
+                 }
+                 .container{
+                    align-self: center;
+                 }
+           }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            it's me sanket
+        </div>
+    </div>
+</body>
+</html>

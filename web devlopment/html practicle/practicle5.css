@@ -1,0 +1,30 @@
+
+h2{
+    background-color: yellow;
+    color: chocolate;
+    width: 100%;
+    text-align: center;
+
+}
+
+p{
+    background-color: cadetblue;
+}
+
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+/* Here i used ID selector using # sympol */
+#paara{
+    color: crimson;
+    background-color: bisque;
+    text-align: right;
+}
+.ArticalClass{
+    background-color: darkgoldenrod;
+    color:darkblue;
+}
+ol,article{
+    background-color: aquamarine;
+}

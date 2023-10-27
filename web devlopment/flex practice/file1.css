@@ -1,0 +1,27 @@
+.container{
+    border: 1px solid black;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex flow property for write flex direction and flex wrap in 1 line 
+    like 
+    flex-flow:row wrap
+     */
+     
+     justify-content:start;
+     align-items: end;
+     gap: 30px;
+   
+     
+
+
+}
+
+.box{
+    border: 1px solid brown;
+    width: 200px;
+    height: 70px;
+    background-color: burlywood;
+    
+}
